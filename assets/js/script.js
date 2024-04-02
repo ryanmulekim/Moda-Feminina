@@ -11,13 +11,16 @@ function atualizarValor(input) {
   // Atualiza o valor multiplicando a quantidade pelo preço
   switch(itemId) {
       case "1":
-          var preco = 79.90;
+          var preco = 59.90;
           break;
       case "2":
-          var preco = 15;
+          var preco = 79.90;
           break;
       case "3":
-          var preco = 20;
+          var preco = 49.90;
+          break;
+      case "4":
+          var preco = 117.90;
           break;
       default:
           var preco = 0;
